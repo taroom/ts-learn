@@ -12,5 +12,8 @@ describe('must interface', function() {
         name: 'Khoirul Abdul',
         address: 'Kembangbilo'
     }
+
+    console.info(seller);
+    console.info(seller2);
   });
 });
