@@ -1,10 +1,7 @@
+import { Manusia } from "../src/manusia";
+
 describe('should method test', function () {
     it('method test', function () {
-        interface Manusia {
-            nama: string,
-            sebutNama(nama: string): string
-        }
-
         const manusia1: Manusia = {
             nama: 'Agus Sutarom',
             sebutNama(nama) {
