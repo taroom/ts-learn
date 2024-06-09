@@ -8,6 +8,7 @@ describe('should do intersection', function () {
             name: string
         }
 
+        // intersection menggunakan &
         type Domain = HasId & HasName;
 
         // implementasi
